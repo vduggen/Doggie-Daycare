@@ -1,8 +1,11 @@
 import React from 'react';
 
+import Home from './pages/Home/index';
+import 'minireset.css';
+
 function App() {
   return (
-    <h1>Hi People</h1>
+    <Home />
   );
 }
 
