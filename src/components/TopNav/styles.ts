@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  width: 1020px;
+  width: 100%;
   height: 128px;
-  margin:1.625rem auto 0 auto;
+  margin-top:1.625rem;
+  padding: 0 13.125rem;
+
+  position:absolute;
+  top:0;
 
   #container-top {
     width: 100%;
@@ -51,6 +55,7 @@ export const Container = styled.header`
       button {
         width: 211px;
         height: 40px;
+        cursor:pointer;
 
         font: bold 0.75rem 'Roboto',sans-serif;
         text-transform: uppercase;
@@ -68,7 +73,7 @@ export const Container = styled.header`
     border-radius:10px;
     background: #fff;
     margin-top:1.75rem;
-    /* padding:0 2.5rem; */
+    padding:0 2.5rem;
 
     display:flex;
     justify-content:space-between;
@@ -81,7 +86,7 @@ export const Container = styled.header`
       justify-content:center;
 
       a {
-        margin:0 2.5rem;
+        margin:0 1.5rem;
         font: bold 0.875rem 'Roboto',sans-serif;
         color: #000;
         text-decoration:none;
@@ -93,12 +98,15 @@ export const Container = styled.header`
           font-size: 1.5rem;
           color:#F2726F;
         }
+
+        &:first-child {
+          margin-left:0;
+        }
       }
     }
 
     .dir {
       height: 100%;
-      padding-right:2.5rem;
 
       display:flex;
       align-items:center;
