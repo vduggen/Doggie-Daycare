@@ -3,7 +3,7 @@ import BannerImage from '../../../../assets/HERO.jpg';
 
 export const Container = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 800px;
   padding: 0 13.125rem;
 
   background-image: url(${BannerImage});
@@ -14,7 +14,7 @@ export const Container = styled.section`
   align-items:center;
 
   #container-text-banner {
-    margin-top:7.875rem;
+    /* margin-top:7.875rem; */
 
     h1 {
       color: #fff;
