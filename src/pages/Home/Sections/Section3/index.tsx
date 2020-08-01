@@ -5,14 +5,26 @@ import dogLove from '../../../../assets/dog_love_24x.svg';
 import dogVet from '../../../../assets/dog_vet_24x.svg';
 import dogStream from '../../../../assets/dog_stream_24x.svg';
 
-const Valprop: React.FC = () => {
+const Section3: React.FC = () => {
   return (
     <Container>
       <header>
-        <section id="text-top-valprop">
-          <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11.2718 6.61768L9.71338 8.17282L14.7755 13.2353L9.71338 18.2978L11.2718 19.853L17.9034 13.2353L11.2718 6.61768Z" fill="#5D62B5"/>
-            <path d="M10.5905 10.4228L9.72474 9.55884L6.04053 13.2353L9.72474 16.9118L10.5905 16.0478L7.77825 13.2353L10.5905 10.4228Z" fill="#5D62B5"/>
+        <section id="text-top-Section3">
+          <svg
+            width="28"
+            height="27"
+            viewBox="0 0 28 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.2718 6.61768L9.71338 8.17282L14.7755 13.2353L9.71338 18.2978L11.2718 19.853L17.9034 13.2353L11.2718 6.61768Z"
+              fill="#5D62B5"
+            />
+            <path
+              d="M10.5905 10.4228L9.72474 9.55884L6.04053 13.2353L9.72474 16.9118L10.5905 16.0478L7.77825 13.2353L10.5905 10.4228Z"
+              fill="#5D62B5"
+            />
           </svg>
 
           <h6>our promise to you</h6>
@@ -23,7 +35,7 @@ const Valprop: React.FC = () => {
 
       <article id="row-about">
         <section className="column-about">
-          <img src={ dogLove } alt="love dog" />
+          <img src={dogLove} alt="love dog" />
 
           <div className="text-dir-column">
             <h6>24/7 Love & Care</h6>
@@ -37,7 +49,7 @@ const Valprop: React.FC = () => {
         </section>
 
         <section className="column-about">
-          <img src={ dogVet } alt="vet dog" />
+          <img src={dogVet} alt="vet dog" />
 
           <div className="text-dir-column">
             <h6>On-site Veterinarian</h6>
@@ -51,7 +63,7 @@ const Valprop: React.FC = () => {
         </section>
 
         <section className="column-about">
-          <img src={ dogStream } alt="stream dog" />
+          <img src={dogStream} alt="stream dog" />
 
           <div className="text-dir-column">
             <h6>Live-stream Cameras</h6>
@@ -66,6 +78,6 @@ const Valprop: React.FC = () => {
       </article>
     </Container>
   );
-}
+};
 
-export default Valprop;
+export default Section3;
