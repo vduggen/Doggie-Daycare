@@ -57,6 +57,7 @@ export const Container = styled.section`
         background: #fff;
         box-shadow: 0 14px 14px rgba(38, 38, 38, 0.2);
         z-index: 2;
+        transition: ease-in-out .3s;
 
         display: flex;
         align-items: center;

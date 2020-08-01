@@ -6,6 +6,7 @@ export const Container = styled.section`
   height: 500px;
   background-image: url(${BgVideo});
   background-position: center center;
+  background-size:cover;
 
   #container-text {
     width: 1020px;
