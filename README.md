@@ -7,24 +7,24 @@
     Projeto de um site institucional de creche de cachorros.
 </p>
 
-<p align="center">  
+<p align="center">
   <img src="https://img.shields.io/apm/l/React">
 </p>
 
-<h4 align="center"> 
+<h4 align="center">
 	🚧  Doggie Daycare 🚀 Em construção...  🚧
 </h4>
 
 ## Tabela de conteúdos
-   * [Sobre](#Sobre) 
+   * [Sobre](#Sobre)
    * [Tecnologias](#tecnologias)
    * [Como Contribuir](#contribuir)
    * [Licença](#licença)
-   
+
 <h2 id="Sobre">Sobre o Projeto</h2>
 O projeto é de um site institucional para creche de cachorros, projeto fictício feito para fixar/práticar os conhecimentos.
 
-Link do layout no figma: 
+Link do layout no figma:
 <a href="https://www.figma.com/file/ptav4MdcHWXfd8VHlhhDH2/Freebie-Template-1---Car-Repair-and-Doggie-Daycare-by-June-Parent?node-id=322%3A0">Ver Layout</a>
 
 <h2 id="tecnologias">Tecnologias</h2>
