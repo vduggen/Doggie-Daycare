@@ -12,7 +12,7 @@
 </p>
 
 <h4 align="center">
-	🚧  Doggie Daycare 🚀 Em construção...  🚧
+	:heavy_check_mark:  Doggie Daycare 🚀 Finalizado  :heavy_check_mark:
 </h4>
 
 ## Tabela de conteúdos
